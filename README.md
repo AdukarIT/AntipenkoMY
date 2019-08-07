@@ -17,7 +17,7 @@
 
 ## Программа:
 - ### 1. Введение в Web-разработку
-	- [🏠 Задание 1]()
+	- [🏠 Задание 1](https://github.com/AdukarIT/AntipenkoMY/tree/master/Task_1)
   		1. `Response: HTTP/1.1 200 OK`
   		2. `Server: VK`
   		3. `www.google.com`
