@@ -13,9 +13,10 @@
 
 ## Важное:
 - [x] API: `*`
+<!-- Хорошая структура проектов: https://github.com/AdukarIT/PavlenkoAA -->
 
 
-## Программа:
+## Задания:
 - ### 1. Введение в Web-разработку
 	- [🏠 Задание 1](https://github.com/AdukarIT/AntipenkoMY/tree/master/Task_1)
   		1. `Response: HTTP/1.1 200 OK`

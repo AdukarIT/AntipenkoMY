@@ -1,0 +1,109 @@
+body {
+	background: #232768;
+	color: white;
+	font-family: Calibri;
+	font-size: 25px;
+	padding-left: 3em;
+	padding-top: 2em;
+	text-align: center;
+}
+
+a {
+	color: #00f981;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+header>a:hover {
+	text-decoration: none;
+}
+
+nav ul {padding: 0;}
+
+nav li {
+	display: inline;
+	padding-right: 30px;
+}
+
+nav a {
+	font-size: 40px;
+	text-transform: uppercase;
+	transition: 1s ease-in-out;
+}
+
+nav a:hover {
+	font-size: 60px;
+}
+
+h2 {
+	color: #00f981;
+	margin-top: 5em;
+}
+
+ul {list-style: none;}
+
+#services li::before {
+	content: "⊗";
+	color: #00f981;
+	font-weight: bold;
+	display: inline-block;
+	width: 1.5em;
+	margin-left: -1em;
+}
+
+td {
+	width: 150px;
+	text-align: center;
+}
+td img {
+	width: 50px;
+	transition: 1s ease-in-out;
+}
+
+td img:hover {
+	width: 100px;
+}
+
+#contacts div a {
+	color: white;
+}
+
+b {
+	color: #00f981;
+}
+
+
+/* Comments page*/
+.user-comments li {
+margin-top: 5em;
+}
+
+.ava {
+	border-radius: 50%;
+	transition: 1s ease-in-out;
+}
+
+.ava:hover {
+	width: 250px;
+	height: 250px;
+}
+
+.name {
+	font-size: 30px;
+	color: #00f981;
+	margin-bottom: 10px;
+}
+
+.name img {
+	margin-left: 10px;
+}
+
+blockquote {
+	display: inline-block;
+	width: 600px;
+	font-size: 20px;
+	font-style: italic;
+}
