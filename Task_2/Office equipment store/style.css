@@ -3,37 +3,53 @@ body {
 	font-size: 25px;
 	padding-left: 3em;
 	padding-top: 2em;
-	color: 	#323232;
+	color: #323232;
 }
 
 ul {
 	list-style: none;
-	list-style: none;
+	padding: 0;
     font-size: 15px;
+    color: #7F7F7F;
+    text-align: left;
 }
 
-p {color: #7F7F7F;}
+p {
+	color: #7F7F7F;
+	text-align: center;
+}
 
-a {
-	color: #808080;
+.product {
+	color: #1B1BB3;
+	font-weight: bold; 
 	text-decoration: none;
 }
 
 a:hover {text-decoration: underline;}
 
-p {	text-align: center;}
-
-
 h1 {
 	margin: 0;
 	font-size: 80px;
-	text-transform: uppercase;}
+	text-transform: uppercase;
+}
 
-h2 {margin-top: 5em;}
+.h1-text {
+	color: #323232;
+	text-decoration: none;
+}
+
+.h1-text:hover {
+	text-decoration: none;
+}
+
+b {font-size: 38px;}
+
+h2 {margin-top: 2em;}
 
 span {color: #1B1BB3;}
 
 .discription {
+	text-align: left;
 	margin-top: 0;
 	font-size: 15px;
 	text-transform: uppercase;
@@ -47,6 +63,7 @@ table {
 
 td {
 	width: 275px;
+	text-align: center;
 }
 
 caption {
@@ -68,5 +85,32 @@ thead {
 }
 
 .stars {
+	display: inline-block;
 	width: 20px;
+	height: 20px;
+	background: url('img/star-empty.png') no-repeat;
+	background-size: cover;
+}
+
+.stars:hover {
+	background-image: url('img/star-fill.png');
+	cursor: pointer;
+}
+
+.contacts {
+	font-size: 20px;
+	color: #7F7F7F;
+	
+}
+
+.contacts a {
+	font-size: 20px;
+	color: #1B1BB3;
+	font-weight: bold;
+}
+
+.descr-prod {
+	width: 800px;
+	text-align: left;
+	font-size: 18px;
 }
