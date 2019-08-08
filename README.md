@@ -21,6 +21,7 @@
   1. `Response: HTTP/1.1 200 OK`
   2. `Server: VK`
   3. `www.google.com`
+  
 ##### [Задание 2. Заголовок первого уровня и типовое меню сайта фастфуда](https://jsfiddle.net/Maximilllian/02s1kz75/3/)
 
 ## 2. Система контроля версий. IDE и редакторы
