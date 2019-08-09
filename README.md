@@ -30,7 +30,7 @@
 ##### Задание 2. [Магазин оргтехники](https://github.com/AdukarIT/AntipenkoMY/tree/master/Task_2/Office%20equipment%20store)
 
 ## 4. Формы. Ссылочные протоколы
-##### Задание 1. [Формы. Ссылочные протоколы](https://codepen.io/Maximillliano/pen/XvEGdX)
+##### Задание 1. [Формы. Ссылочные протоколы](https://codepen.io/Maximillliano/pen/JgLzGE)
 ##### Задание 2. [Форма отзыва на товар](https://codepen.io/Maximillliano/pen/ymqyxV)
 
 ## 5. Продвинутый HTML
