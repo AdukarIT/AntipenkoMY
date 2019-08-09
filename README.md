@@ -23,7 +23,7 @@
   1. `Response: HTTP/1.1 200 OK`
   2. `Server: VK`
   3. `www.google.com`
-##### Задание 2. [Заголовок первого уровня и типовое меню сайта фастфуда](https://codepen.io/Maximillliano/pen/JgLzGE)
+##### Задание 2. [Заголовок первого уровня и типовое меню сайта фастфуда](https://codepen.io/Maximillliano/pen/XvEGdX)
 
 ## 3. Основы HTML
 #####	Задание 1. [Сервис ремонта мобильных телефонов](https://github.com/AdukarIT/AntipenkoMY/tree/master/Task_2/Mobile%20phone%20repair%20service)
