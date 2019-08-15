@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Insta100</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<header>
+		<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve" fill="#323232">
+			<path d="M336,272c0,44.188-35.813,80-80,80s-80-35.813-80-80s35.813-80,80-80S336,227.813,336,272z M512,144v256  c0,17.688-14.313,32-32,32H32c-17.688,0-32-14.313-32-32V144c0-17.688,14.313-32,32-32h32c0-17.688,14.328-32,32-32h32  c17.672,0,32,14.313,32,32h320C497.688,112,512,126.313,512,144z M368,272c0-61.75-50.25-112-112-112s-112,50.25-112,112  s50.25,112,112,112S368,333.75,368,272z M448,144h-64v32h64V144z"/>
+		</svg>
+		<div>Insta<b>100</b></div>
+	</header>
+
+	<section>
+		<h2>Войти в аккаунт</h2>
+		<form name="login" action="#" method="POST">
+			<label>Email<input type="email" name="email" placeholder="Введите вашу почту" required></label>
+			<label>Пароль<input type="password" name="password" placeholder="Введите ваш пароль" required></label>
+			<button onClick="validForm()">Войти</button>
+		</form>
+		
+		<h2>Зарегестрироваться</h2>
+		<form name="registration" action="#" method="POST">
+			<label>Ваше имя<input type="text" name="name" required placeholder="Введите ваше имя" required></label>
+			<label>Email<input type="email" name="email" placeholder="Введите вашу почту" required></label>
+			<label>Пароль<input type="password" name="password" placeholder="Введите ваш пароль" required></label>
+			<input type="password" name="password" placeholder="Повторите введеный пароль" required>
+			<label><input type="checkbox" required>Согласны с порядком обработки персональных данных</label>
+			<button onClick="validForm()">Войти</button>
+		</form>
+	</section>
+
+	<script>
+	    function validForm() {
+	    	alert("Добро пожаловать! \nВы вошли под профелем: " + document.forms['login'].email.value);
+	    	window.open("feed.html","_self") 
+	    }
+	</script> 
+</body>
+</html>

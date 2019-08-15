@@ -1,4 +1,4 @@
-<p align="center">
+﻿<p align="center">
   <a href="https://it-kursy.adukar.by/web-design/">
     <img src="https://avatars1.githubusercontent.com/u/25266367?s=400&u=cc29dc0b0f77c788fd2688cb87fb629fddfb03a1&v=4" alt="avatar" width="100px">
   </a>
@@ -34,4 +34,5 @@
 ##### Задание 2. [Форма отзыва на товар](https://codepen.io/Maximillliano/pen/ymqyxV)
 
 ## 5. Продвинутый HTML
-##### Задание 1.
+##### Задание 1. [Social network of photos and videos](#)
+##### Задание 2. [Foreign Language Guides Website](https://github.com/AdukarIT/AntipenkoMY/tree/master/Task_5/Foreign%20Language%20Guides%20Website)

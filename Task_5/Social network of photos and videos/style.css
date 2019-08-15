@@ -1,0 +1,42 @@
+body {
+	display: flex;
+	flex-direction: column; 
+	font: 25px Calibri;
+	color: #323232;
+}
+
+header {
+	display: flex;
+	justify-content: center;
+	margin-top: 20vh;
+	margin-bottom: 20px;
+}
+
+form {
+	text-align: center;
+
+}
+
+input {
+	display: block;
+	margin: auto;
+}
+
+div {
+	display: inline-block;
+	font-size: 3em;
+	text-transform: uppercase;
+}
+
+svg {
+	width: 50px;
+	padding-right: 20px;
+}
+
+h2 {
+	text-align: center;
+}
+
+label {
+	text-align: left;
+}
