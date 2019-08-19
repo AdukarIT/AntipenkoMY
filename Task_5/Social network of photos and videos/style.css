@@ -1,25 +1,56 @@
 body {
 	display: flex;
 	flex-direction: column; 
-	font: 25px Calibri;
+	font: 24px Calibri;
 	color: #323232;
 }
 
 header {
 	display: flex;
 	justify-content: center;
-	margin-top: 20vh;
+	margin-top: 12vh;
 	margin-bottom: 20px;
+}
+
+a {
+	color: #323232;
+	text-decoration: none;
+}
+
+section {
+	margin-bottom: 35px;
 }
 
 form {
 	text-align: center;
-
 }
 
 input {
 	display: block;
 	margin: auto;
+	margin-bottom: 20px;
+	padding: 15px 30px;
+    width: 200px;
+    border: none;
+    border-radius: 15px;
+    background: #e4e4e4;   
+    font-weight: bold;
+}
+
+.check input {
+	display: inline;
+	width: auto;
+	margin-right: 9px;
+	
+}
+
+.check {
+	font-size: 16px;
+	color: #e4e4e4;
+}
+
+input:checked + span{
+	color: #323232;
 }
 
 div {
@@ -39,4 +70,95 @@ h2 {
 
 label {
 	text-align: left;
+}
+
+.but-blue {
+	display: block;
+	margin: auto;
+	border: none;
+    padding: 9px 46px;
+    border-radius: 40px;
+    font-size: 18px;
+    background: #0000ff;
+    color: white;
+}
+
+.feed {
+	margin: auto;
+}
+
+ul {
+	margin-top: 55px;
+	padding: 20px;
+	border-radius: 15px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+li {
+	margin: auto;
+	list-style-type: none;
+	margin-bottom: 10px;
+	width: 560px;
+	font-size: 18px;
+}
+
+li img {
+	vertical-align: middle;
+	border-radius: 50%;
+}
+
+iframe {
+	border-radius: 15px;
+}
+
+.user-name {
+	font-size: 20px;
+	font-weight: bold;
+	padding-left: 10px;
+	vertical-align: middle;
+}
+
+.link-color {
+	text-decoration: underline;
+	color: #0000ff;
+	font-weight: bold;
+}
+
+.comment .reply {
+	display: block;
+	font-size: 18px;
+	text-transform: inherit;
+}
+
+.comment li {
+	margin-bottom: 30px;
+}
+.comment li:last-child {
+	margin-bottom: 0;
+}
+
+.comment li .but-blue {
+	width: 77px;
+	margin: 0;
+	padding: 7px 30px;
+}
+
+textarea {
+	border-radius: 10px;
+	border-color: rgba(0,0,0,0.2);
+	width: 100%;
+}
+
+.send-post {
+	width: 640px;
+	margin: auto;
+	margin-top: 55px;
+}
+
+input[type="file"]{
+	width: 250px;
+}
+
+.send-post .but-blue {
+	width: 90px;
 }

@@ -15,7 +15,6 @@
 ## Важное:
 - [Презентации](https://github.com/AdukarIT/_Tasks_)
 - [x] API: `*`
-<!-- Хорошая структура проектов: https://github.com/AdukarIT/PavlenkoAA -->
 
 
 ## 1. Введение в Web-разработку
@@ -34,5 +33,5 @@
 ##### Задание 2. [Форма отзыва на товар](https://codepen.io/Maximillliano/pen/ymqyxV)
 
 ## 5. Продвинутый HTML
-##### Задание 1. [Social network of photos and videos](#)
+##### Задание 1. [Social network of photos and videos](https://github.com/AdukarIT/AntipenkoMY/tree/master/Task_5/Social%20network%20of%20photos%20and%20videos)
 ##### Задание 2. [Foreign Language Guides Website](https://github.com/AdukarIT/AntipenkoMY/tree/master/Task_5/Foreign%20Language%20Guides%20Website)
