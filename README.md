@@ -43,4 +43,4 @@
 
 ## 7. CSS. Позиционирование
 ##### Задание 1. [Progress bar](https://codepen.io/Maximillliano/pen/yLBajjN)
-##### Задание 2. [Modal window](#)
+##### Задание 2. [Modal window](https://codepen.io/Maximillliano/pen/xxKEzyy)
