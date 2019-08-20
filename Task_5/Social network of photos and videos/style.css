@@ -109,6 +109,7 @@ li img {
 
 iframe {
 	border-radius: 15px;
+	border: none;
 }
 
 .user-name {
@@ -146,7 +147,7 @@ iframe {
 textarea {
 	border-radius: 10px;
 	border-color: rgba(0,0,0,0.2);
-	width: 100%;
+	width: 92%;
 }
 
 .send-post {
