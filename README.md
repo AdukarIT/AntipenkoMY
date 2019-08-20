@@ -10,6 +10,7 @@
 - [3. Система контроля версий. IDE и редакторы](#3-Система-контроля-версий-IDE-и-редакторы)
 - [4. Основы HTML](#4-Основы-HTML)
 - [5. Продвинутый HTML](#5-Продвинутый-HTML)
+- [6. Основы CSS](#6-Основы-CSS)
 
 
 ## Важное:
@@ -35,3 +36,6 @@
 ## 5. Продвинутый HTML
 ##### Задание 1. [Social network of photos and videos](https://github.com/AdukarIT/AntipenkoMY/tree/master/Task_5/Social%20network%20of%20photos%20and%20videos)
 ##### Задание 2. [Foreign Language Guides Website](https://github.com/AdukarIT/AntipenkoMY/tree/master/Task_5/Foreign%20Language%20Guides%20Website)
+
+## 6. Основы CSS
+##### Задание 1. [Abstract](https://codepen.io/Maximillliano/pen/GRKjxVO)
