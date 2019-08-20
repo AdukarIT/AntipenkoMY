@@ -11,6 +11,7 @@
 - [4. Основы HTML](#4-Основы-HTML)
 - [5. Продвинутый HTML](#5-Продвинутый-HTML)
 - [6. Основы CSS](#6-Основы-CSS)
+- [7. CSS. Позиционирование](#7-CSS-Позиционирование)
 
 
 ## Важное:
@@ -39,3 +40,7 @@
 
 ## 6. Основы CSS
 ##### Задание 1. [Abstract](https://codepen.io/Maximillliano/pen/GRKjxVO)
+
+## 7. CSS. Позиционирование
+##### Задание 1. [Progress bar](https://codepen.io/Maximillliano/pen/yLBajjN)
+##### Задание 2. [Modal window](#)
