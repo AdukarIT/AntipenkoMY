@@ -1,5 +1,5 @@
-﻿<p align="center">
-  <a href="https://it-kursy.adukar.by/web-design/">
+<p align="center">
+  <a href="https://github.com/Maximillliano">
     <img src="https://avatars1.githubusercontent.com/u/25266367?s=400&u=cc29dc0b0f77c788fd2688cb87fb629fddfb03a1&v=4" alt="avatar" width="100px">
   </a>
   <h3 align="center">AntipenkoMY</h3>
