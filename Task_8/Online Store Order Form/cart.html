@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" href="style.css">
+	<title>iSell</title>
+	<link rel="icon" href="https://conectnet.inf.br/favicon/apple-icon.png">
+</head>
+<body>
+
+	<nav>
+		<h1><b>Dev</b>Sell</h1>
+		<ul class="main-menu">
+			<li><a href="#">Бытовая техника <img class="icon-arrow-down" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Arrow-down.svg/1024px-Arrow-down.svg.png" alt="icon arrow down"></a>
+				<ul class="main-menu__drop-menu">
+					<li><a href="#">Стиральные машины</a></li>
+					<li><a href="#">Пылесосы</a></li>
+					<li><a href="#">Швейные, вышивальные машины</a></li>
+					<li><a href="#">Утюги</a></li>
+					<li><a href="#">Пылесосы</a></li>
+					<li><a href="#">Электровеники</a></li>
+					<li><a href="#">Сушилки для обуви</a></li>
+				</ul>
+			</li>
+			<li><a href="#">Техника для кухни <img class="icon-arrow-down" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Arrow-down.svg/1024px-Arrow-down.svg.png" alt="icon arrow down"></a>
+				<ul class="main-menu__drop-menu">
+					<li><a href="#">Холодильники</a></li>
+					<li><a href="#">Кухонные плиты</a></li>
+					<li><a href="#">Морозильники</a></li>
+					<li><a href="#">Настольные плиты</a></li>
+					<li><a href="#">Ростеры, мини-печи</a></li>
+					<li><a href="#">Вытяжки</a></li>
+					<li><a href="#">Микроволновые печи</a></li>
+				</ul>
+			</li>
+			<li><a href="#">Компьютерная техника <img class="icon-arrow-down" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Arrow-down.svg/1024px-Arrow-down.svg.png" alt="icon arrow down"></a>
+				<ul class="main-menu__drop-menu">
+					<li><a href="#">Ноутбуки</a></li>
+					<li><a href="#">Планшеты</a></li>
+					<li><a href="#">Компьютеры, моноблоки</a></li>
+					<li><a href="#">Игровые приставки</a></li>
+					<li><a href="#">Серверное оборудование</a></li>
+				</ul>
+			</li>
+			<li><a href="#">Корзина <img class="icon-arrow-down" src="https://image.flaticon.com/icons/png/512/34/34568.png" alt="icon cart"></a>
+			</li>
+		</ul>
+	</nav>
+
+	<main>
+		<form action="#">
+			<input type="text" name="surname" placeholder="Фамилия" required>
+			<input type="text" name="name" placeholder="Имя" required>
+
+			<input type="tel" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{7}" value="+375" required>
+			<input type="email" pattern=".+@gmail.com" size="30" placeholder="вашапочта@gmail.com" required>
+			
+
+			<div class="description">Выберите способ доставки:</label>
+
+			<div class="delivery">
+				<h3>Самовывоз со склада по адресу:</h3>
+				<input class="radio-adress-1"type="radio" name="self-delivery" checked> ул. Притыцкого 100
+
+				<input class="radio-adress-2" type="radio" name="self-delivery"> ул. Одоевского 300
+
+				<div class="radio-adress-map-1">
+					<iframe src="https://yandex.by/map-widget/v1/-/CBRDEVwI9D" width="560" height="400" frameborder="1" allowfullscreen="true"></iframe>
+				</div>
+
+				<div class="radio-adress-map-2">
+					<iframe src="https://yandex.by/map-widget/v1/-/CBRDEVwI9D" width="560" height="400" frameborder="1" allowfullscreen="true"></iframe>
+				</div>
+				<input type="checkbox" name="curier-delivery"> Курьером по Минску
+				<div class="check-open">
+					<input type="text" name="adress" placeholder="Введите адрес доставки">
+				</div>
+			</div>
+
+			
+
+		<br><br><br><br>
+
+
+
+
+			
+
+			
+
+
+			<label>Комментарий к заказу
+				<textarea name="" id="" cols="30" rows="10"></textarea>
+			</label>
+
+			<input type="checkbox">"Я прочитал и согласен с условиями доставки" (чекбокс)
+
+			<input type="submit" name=""></button>
+		</form>
+	</main>
+
+	<footer class="contacts">
+		<ul>
+			<li>6 до 15</li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+		</ul>
+
+		<div>Адрес офиса</div>
+
+		<ul>
+			<li><a href="tel:+375296666666">+375(29)666-66-66</li>
+			<li><a href="tel:+375296666666">+375(29)666-66-66</li>
+			<li><a href="skype:username?call">Call Me</a></li>
+		</ul>
+	</footer>
+</body>
+</html>
