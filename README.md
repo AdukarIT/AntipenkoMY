@@ -58,5 +58,13 @@
 ## 10. Изображения. Шрифты и иконки
 ##### Задание 1. [Пляж](https://codepen.io/Maximillliano/pen/bGbjopL)
 ##### Задание 2. [Лайк](https://codepen.io/Maximillliano/pen/mdbjBYx)
-##### Задание 3. [Чекбокс]()
-##### Задание 4. [Header магазина]()
+##### Задание 3. [Чекбокс](https://codepen.io/Maximillliano/pen/mdbjBYx)
+##### Задание 4. [Header магазина](https://codepen.io/Maximillliano/pen/zYOLPoN?editors=1100)
+
+## 11. Практика
+##### Задание 1. [Многостраничная верстка]()
+
+## 12. Flexbox
+##### Задание 0. [Верстка струкутры на flexbox]()
+
+## 13. Адаптивная вёрстка
