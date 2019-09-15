@@ -50,10 +50,10 @@
 
 ## 8. Float. Псевдоклассы и составные селекторы
 ##### Задание 1. [Float + input:checked](https://codepen.io/Maximillliano/pen/WNeZRNK)
-##### Задание 2. [Форма заказа в интернет-магазине](#)
+##### Задание 2. [Форма заказа в интернет-магазине](https://github.com/AdukarIT/AntipenkoMY/tree/master/Task_8/Online%20Store%20Order%20Form)
 
 ## 9. Свойства видимости. Именование классов. БЭМ
 ##### Задание 1. [HTML5-form](https://codepen.io/Maximillliano/pen/eYOGrMR)
 
 ## 10. Изображения. Шрифты и иконки
-##### Задание 1. [#](#)
+##### Задание 1. [Пляж](https://codepen.io/Maximillliano/pen/bGbjopL)
