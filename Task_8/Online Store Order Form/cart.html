@@ -51,71 +51,53 @@
 
 	<main>
 		<form action="#">
-			<input type="text" name="surname" placeholder="Фамилия" required>
-			<input type="text" name="name" placeholder="Имя" required>
+			<input class="from-who" type="text" name="surname" placeholder="Фамилия" required>
+			<input class="from-who" type="text" name="name" placeholder="Имя" required>
 
-			<input type="tel" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{7}" value="+375" required>
-			<input type="email" pattern=".+@gmail.com" size="30" placeholder="вашапочта@gmail.com" required>
+			<input class="from-who" type="tel" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{7}" value="+375" required>
+			<input class="from-who" type="email" pattern=".+@gmail.com" size="30" placeholder="Ваша почта @gmail.com" required>
 			
 
-			<div class="description">Выберите способ доставки:</label>
+			<h2>Выберите способ доставки:</h2>
 
 			<div class="delivery">
-				<h3>Самовывоз со склада по адресу:</h3>
-				<input class="radio-adress-1"type="radio" name="self-delivery" checked> ул. Притыцкого 100
+				<b>Самовывоз со склада по адресу:</b><br>
+				<input class="radio-adress-1" type="radio" name="self-delivery" checked> ул. Притыцкого 100
 
 				<input class="radio-adress-2" type="radio" name="self-delivery"> ул. Одоевского 300
 
 				<div class="radio-adress-map-1">
-					<iframe src="https://yandex.by/map-widget/v1/-/CBRDEVwI9D" width="560" height="400" frameborder="1" allowfullscreen="true"></iframe>
+					<iframe src="https://yandex.by/map-widget/v1/-/CBRDEVwI9D" width="560" height="400"></iframe>
 				</div>
 
 				<div class="radio-adress-map-2">
-					<iframe src="https://yandex.by/map-widget/v1/-/CBRDEVwI9D" width="560" height="400" frameborder="1" allowfullscreen="true"></iframe>
+					<iframe src="https://yandex.by/map-widget/v1/-/CBRDEVwI9D" width="560" height="400"></iframe>
 				</div>
 				<input type="checkbox" name="curier-delivery"> Курьером по Минску
 				<div class="check-open">
 					<input type="text" name="adress" placeholder="Введите адрес доставки">
 				</div>
 			</div>
-
-			
-
-		<br><br><br><br>
-
-
-
-
-			
-
-			
-
-
 			<label>Комментарий к заказу
-				<textarea name="" id="" cols="30" rows="10"></textarea>
+				<textarea cols="78" rows="10"></textarea>
 			</label>
 
-			<input type="checkbox">"Я прочитал и согласен с условиями доставки" (чекбокс)
+			<input type="checkbox">"Я прочитал и согласен с <a href="#">условиями доставки"</a>
 
-			<input type="submit" name=""></button>
+			<input class="button__send" type="submit" value="Подтвердить заказ">
 		</form>
 	</main>
 
 	<footer class="contacts">
+		<h2>Контакты</h2>
 		<ul>
-			<li>6 до 15</li>
-			<li></li>
-			<li></li>
-			<li></li>
-			<li></li>
+			<li>Пн-Пт: 9:00 до 21:00</li>
+			<li>Сб-Вс: 10:00 до 18:00</li>
 		</ul>
-
-		<div>Адрес офиса</div>
-
 		<ul>
-			<li><a href="tel:+375296666666">+375(29)666-66-66</li>
-			<li><a href="tel:+375296666666">+375(29)666-66-66</li>
-			<li><a href="skype:username?call">Call Me</a></li>
+			<li>Телефон: <a href="tel:+375297788">+375 (29) 7788</a> <a href="skype:username?call">skype</a></li>
+			<li>Адрес офиса: <a href="#">г. Минск, ул.Ольшевского, д. 20/11, помещение 18.</a></li>
+			<li>Работаем: <a href="#">с 9:00 до 21:00 без обеда и выходных</a></li>
 		</ul>
 	</footer>
 </body>

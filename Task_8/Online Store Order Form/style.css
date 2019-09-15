@@ -46,6 +46,21 @@ li {list-style-type: none;}
 
 input, iframe, textarea {
 	display: block;
+	margin-bottom: 20px;
+}
+
+h2 {
+	margin-top: 80px;
+}
+
+.from-who {
+	padding: 10px;
+    width: 400px;
+    height: 40px;
+    border: none;
+    font-size: 20px;
+    border-radius: 10px;
+    color: #2d2d2d;
 }
 
 main {
@@ -102,9 +117,45 @@ main {
 	display: none;
 }
 
-input[class*="radio-adress-1"]:checked .radio-adress-map-1,
-
+.radio-adress-1:checked ~ .radio-adress-map-1,
+.radio-adress-2:checked ~ .radio-adress-map-2,
 input[type="checkbox"]:checked + .check-open {
-	display: block;
+ display: block;
 }
 
+input[type="checkbox"] {
+	display: inline;
+}
+
+
+input[type="checkbox"]:checked ~ .button__send  {
+ background: #104dff;
+ color: white;
+ cursor: pointer;
+}
+
+input + a {
+	display: inline;	
+}
+
+input[type="submit" i] {
+	border: none;
+    border-radius: 10px;
+    padding: 21px 34px;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: grey;
+}
+
+.contacts {
+	margin-top: 150px;
+}
+
+.contacts ul li {
+	margin-bottom: 30px;
+}
+
+.contacts ul li a {
+	display: inline;
+}
