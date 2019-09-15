@@ -57,3 +57,6 @@
 
 ## 10. Изображения. Шрифты и иконки
 ##### Задание 1. [Пляж](https://codepen.io/Maximillliano/pen/bGbjopL)
+##### Задание 2. [Лайк](https://codepen.io/Maximillliano/pen/bGbjojx)
+##### Задание 3. [Чекбокс]()
+##### Задание 4. [Header магазина]()
